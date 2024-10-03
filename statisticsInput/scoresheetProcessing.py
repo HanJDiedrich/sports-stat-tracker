@@ -1,9 +1,13 @@
-import keras_ocr
+import pytesseract
+from PIL import Image
 
-#Pipeline: Image Input, Detection, Recognition
 
-#Initialize pipeline
-pipeline = keras_ocr.pipeline.Pipeline()
+# Load image
+image_path = 'testingResources/IMscoresheet1.jpg'
+image = Image.open(image_path)
 
-#Get image:
-images = 
+# Perform OCR(Optical Character Recognition)]
+text = pytesseract.image_to_string(image)
+
+# Print recognized text
+print(text.replace('\n',''))
