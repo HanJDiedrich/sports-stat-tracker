@@ -4,3 +4,4 @@ LIST IDEAS AND PLANS HERE
 
 statisticsInput-scoresheetProcessing:
 - Utilize computer vision to scan scoresheets with handwritten inputs, allow user to confirm correct information and update database
+- use keras-ocr for OCR (Optical Character Recognition)

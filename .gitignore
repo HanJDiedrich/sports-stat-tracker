@@ -1,3 +1,13 @@
+# Image types
+*.jpg
+*.jpeg
+*.png
+
+# Ignore files with zone identifiers
+*.jpg:Zone.Identifier
+*.jpeg:Zone.Identifier
+*.png:Zone.Identifier
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

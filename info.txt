@@ -1,1 +1,6 @@
 Necessary packages
+
+
+
+Image processing tools:
+pip install keras-ocr
