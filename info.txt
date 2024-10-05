@@ -1,8 +1,4 @@
 Necessary packages
 
-
-
-Image processing tools:
-pip install pillow - Python imaging library
-sudo apt install tesseract-ocr - installing open source package on ubuntu
-pip install pytesseract - use tesseract with python
+#PostGressSQL connector for later
+pip install psycopg2
